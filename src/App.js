@@ -18,14 +18,15 @@ function App() {
   return (
     <div className="App">
       <div className="pageheader">
-        <h1>Hyperionwitch's Bullshit</h1>
+        <span>Hyperionwitch's Bullshit</span>
       </div>
 
 
       <BrowserRouter>
         <Navbar activePage={activePage} ChangePage={ChangePage}/>
         <Routes>  
-          <Route path="/homepage" element={<Homepage/>}/>  
+          <Route path="/homepage" element={<Homepage/>}/>
+          <Route path="/website" element={<Homepage/>}/> 
           <Route path="/" element={<Homepage/>}/>  
           <Route path="/art" element={<Art/>}/>
           <Route path="/cats" element={<Cats/>}/>
