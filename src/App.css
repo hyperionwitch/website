@@ -1,3 +1,8 @@
+/* Makes the page fit with no scroll bar, oh my god */
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
   overflow: hidden;
@@ -94,22 +99,26 @@
 .leftcolumn {
   display: block;
   float: left;
-  padding: 20px;
   width: 20%;
-  height: 59vh;
-  background-image:url(tevportrait.png);
-  background-position: 55% 100%;
+  height:60vh;
+  background-color: black;
+/*  background-image:url(tevdrenmusicfade.png);
+  background-position: 55% 0%;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #dddddd;
+  background-size: cover; */
+  background-attachment:scroll;
+  overflow: hidden;
+  margin: auto;
 }
 
 /* Right column */
 .rightcolumn {
   display: block;
   float: right;
-  width: 75%;
+  width: 80%;
+  height:60vh;
   padding: 20px;
+  overflow-x: auto;
 }
 
 /* Clear floats after the columns */
@@ -119,9 +128,28 @@
   clear: both;
 }
 
+/* On screens that are 600px or less, the left column is not displayed and the right column makes up the entire screen */
+@media screen and (max-width: 600px) {
+  .leftcolumn {
+    display: none;
+  }
+  .rightcolumn {
+    width: 100%;
+  }
+}
+
 /* Style the page footer */
 .pagefooter {
   background-color: #222222;
-  padding: 50px;
+  padding: 20px;
   color: #ffffff;
+  width: 100%;
+  position: static;
+}
+
+img.tevdrenmusicfade {
+  height: auto;
+  width: 100%;
+  min-width: 200px;
+  position: relative;
 }
