@@ -1,4 +1,3 @@
-import tevportraitimg from "./tevportrait.png";
 import './App.css';
 import Navbar from "./navbar";
 import Homepage from "./homepage";
@@ -9,10 +8,15 @@ import { useState } from "react";
 
 function App() {
   const [activePage, setActivePage] = useState("homepage");
+  const [artActivePage, setArtActivePage] = useState("art");
 
   const ChangePage = (newPage) => {
     setActivePage(newPage);
     console.log(activePage);
+  }
+
+  const ChangeArtPage = (newPage) => {
+    setArtActivePage(newPage);
   }
   
   return (
@@ -21,14 +25,13 @@ function App() {
         <span>Hyperionwitch's Bullshit</span>
       </div>
 
-
       <BrowserRouter>
         <Navbar activePage={activePage} ChangePage={ChangePage}/>
         <Routes>  
           <Route path="/homepage" element={<Homepage/>}/>
           <Route path="/website" element={<Homepage/>}/> 
           <Route path="/" element={<Homepage/>}/>  
-          <Route path="/art" element={<Art/>}/>
+          <Route path="/art/*" element={<Art activePage={artActivePage} ChangePage={ChangeArtPage}/>}/>
           <Route path="/cats" element={<Cats/>}/>
         </Routes>
       </BrowserRouter>

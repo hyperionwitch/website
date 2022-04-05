@@ -31,7 +31,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #d6ab34;
 }
 
 @keyframes App-logo-spin {
@@ -60,7 +60,7 @@
   background-color: #333;
 }
 
-/* Style the active page link */
+/* Style the active page topnav link */
 .navactivepage {
   float: left;
   display: block;
@@ -87,10 +87,16 @@
   transition: background-color 1s;
 }
 
-/* Change color on hover */
+/* Change topnav link color on hover */
 .navinactivepage:hover {
   background-color: #111111;
   color: #ffffff;
+  transition: background-color 0s;
+}
+
+/* Change topnav link color on click and fade into active */
+.navinactivepage:active {
+  background-color: #5880ee;
   transition: background-color 0s;
 }
 
@@ -128,13 +134,22 @@
   clear: both;
 }
 
-/* On screens that are 600px or less, the left column is not displayed and the right column makes up the entire screen */
+/* On screens that are 600px or less, the left column turns into a thin bar and the right column becomes full width */
 @media screen and (max-width: 600px) {
   .leftcolumn {
-    display: none;
+    float: none;
+    width: 100%;
+    height: 10vh;
   }
   .rightcolumn {
     width: 100%;
+  }
+  img.tevdrenmusicfade {
+    width: 600px;
+    top: -220px;
+  }
+  .artnav {
+    flex-direction: row;
   }
 }
 
@@ -147,9 +162,60 @@
   position: static;
 }
 
-img.tevdrenmusicfade {
+/* Style the sidebar image, not sure why this doesn't require img but the media version does to work */
+.tevdrenmusicfade {
   height: auto;
   width: 100%;
   min-width: 200px;
   position: relative;
+  top: -20px;
+}
+
+/* Style the art navigation bar */
+.artnav {
+  display: block;
+  flex-direction: column;
+  background-color: #dddddd;
+  text-decoration: none;
+  padding: 20px;
+}
+
+/* Style the active page artnav link */
+.artnavactivepage {
+  float: left;
+  display: block;
+  text-align: center;
+  width: 100px;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #25497e;
+  color: #ffffff;
+  cursor: default;
+  transition: background-color 1s;
+}
+
+/* Style the inactive artnav links */
+.artnavinactivepage {
+  float: left;
+  display: block;
+  color: #999999;
+  text-align: center;
+  width: 100px;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+
+/* Change artnav link color on hover */
+.artnavinactivepage:hover {
+  background-color: #111111;
+  color: #ffffff;
+  transition: background-color 0s;
+}
+
+/* Change artnav link color on click and fade into active */
+.artnavinactivepage:active {
+  background-color: #5880ee;
+  transition: background-color 0s;
 }
