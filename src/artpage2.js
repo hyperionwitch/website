@@ -1,7 +1,7 @@
 const Artpage2 = () => {
     return ( 
-        <div className="row">
-            <span className="rightcolumn">test page 2</span>
+        <div>
+            <span>test page 2</span>
         </div>
      );
 }

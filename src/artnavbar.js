@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
 const Artnavbar = (props) => {
-    const artActivePage = props.artActivePage;
+    const artActivePage = props.activePage;
     const ChangeArtPage = props.ChangeArtPage;
 
     return ( 
-        <div>
+        <div className="artnavcenter">
             <div className="artnav">
                 <Link to="/art/home">
                     <span className={artActivePage === "art" ? "artnavactivepage" : "artnavinactivepage"} onClick={()=>{ChangeArtPage("art")}}>Art Home</span>

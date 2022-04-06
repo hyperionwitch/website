@@ -7,14 +7,19 @@ import Arthome from "./Arthome";
 const Art = (props) => {
 
     return ( 
-        <div className="row">
-            <Artnavbar activePage={props.activePage} ChangeArtPage={props.ChangePage}/>
-            <Routes> 
-                <Route path="home" element={<Arthome />} />
-                <Route path="/" element={<Arthome />} />
-                <Route path="artpage1" element={<Artpage1 />} />
-                <Route path="artpage2" element={<Artpage2 />} /> 
-            </Routes>
+        <div className="clearfix row">
+            <div className="col-md-3 d-flex justify-content-center">
+                <Artnavbar activePage={props.activePage} ChangeArtPage={props.ChangePage}/>
+            </div>
+            <div className="col-md-9">
+                <Routes> 
+                    <Route path="home" element={<Arthome />} />
+                    <Route path="/" element={<Arthome />} />
+                    <Route path="artpage1" element={<Artpage1 />} />
+                    <Route path="artpage2" element={<Artpage2 />} /> 
+                </Routes>
+            </div>
+            
         </div>
      );
 }

@@ -1,10 +1,11 @@
 const Arthome = () => {
     return ( 
-        <div className="rightcolumn">
-                    
+        <div className="arthomebody container-fluid">
+                <div>
                     <h1>test test</h1>
                     <span>test</span>
                 </div>
+        </div>
      );
 }
  

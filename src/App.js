@@ -17,6 +17,7 @@ function App() {
 
   const ChangeArtPage = (newPage) => {
     setArtActivePage(newPage);
+    console.log(newPage);
   }
   
   return (

@@ -1,8 +1,8 @@
 const Artpage1 = () => {
 
     return ( 
-        <div className="row">
-            <span className="rightcolumn">test page 1</span>
+        <div>
+            <span>test page 1</span>
         </div>
      );
 }

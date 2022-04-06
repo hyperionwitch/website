@@ -1,13 +1,11 @@
-import Tevdrenmusicfade from "./tevdrenmusicfade.png";
-
 const Homepage = () => {
     return ( 
-        <div className="homepagebody">
-            <div className="row">
-                <div className="leftcolumn">
-                    <img className="tevdrenmusicfade" src={Tevdrenmusicfade} />
+        <div className="homepagebody container-fluid">
+            <div className="clearfix row">
+                <div className="col-sm-3 float-start leftcolumn">
+                    {/* <img className="tevdrenmusicfade img-responsive" src={Tevdrenmusicfade} /> */}
                 </div>
-                <div className="rightcolumn">
+                <div className="col-sm-9 p-5 float-end rightcolumn">
                     <h2>Test</h2>
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
                     Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, 
