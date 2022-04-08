@@ -2,7 +2,7 @@ const Arthome = () => {
     return ( 
         <div className="arthomebody container-fluid">
                 <div>
-                    <h1>test test</h1>
+                    <h2>test test</h2>
                     <span>test</span>
                 </div>
         </div>

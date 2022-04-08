@@ -118,7 +118,7 @@
 /* Right column */
 .rightcolumn {
   display: block;
-  height:60vh;
+  height: 60vh;
   overflow-x: auto;
 }
 
@@ -130,17 +130,15 @@
 }
 
 /* On screens that are 600px or less, the left column turns into a thin bar and the right column becomes full width */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .leftcolumn {
     height: 10vh;
     background-position: 100% 25%;
+    width: 100%;
   }
   .rightcolumn {
     width: 100%;
     height: 55vh;
-  }
-  .artnav {
-    flex-direction: row;
   }
 }
 
@@ -150,16 +148,9 @@
   padding: 20px;
   color: #ffffff;
   width: 100%;
-  position: relative;
-}
-
-/* Style the sidebar image, not sure why this doesn't require img but the media version does to work */
-.tevdrenmusicfade {
-  height: auto;
-  width: 100%;
-  min-width: 200px;
-  position: static;
-  top: -20px;
+  position: fixed;
+  height: 10vh;
+  overflow-y: hidden;
 }
 
 /* Style the art navigation bar */
@@ -212,6 +203,19 @@
   transition: background-color 0s;
 }
 
+/* Center the art navbar */
 .artnavcenter {
   width: 100%;
+}
+
+/* On screens that are 600px or less, the art navbar shrinks and becomes horizontal */
+@media screen and (max-width: 768px) {
+ .artnav {
+  flex-direction: row;  
+  height: min-content;
+  }
+  .artrightcolumn {
+    display: flex;
+    height: 59vh; /* this will have to be adjusted if the navbar changes height? */
+  }
 }

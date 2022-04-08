@@ -4,6 +4,7 @@ import Homepage from "./homepage";
 import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
 import Art from "./art";
 import Cats from "./cats";
+import About from "./about";
 import { useState } from "react";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route path="/" element={<Homepage/>}/>  
           <Route path="/art/*" element={<Art activePage={artActivePage} ChangePage={ChangeArtPage}/>}/>
           <Route path="/cats" element={<Cats/>}/>
+          <Route path="/about" element={<About/>}/>
         </Routes>
       </BrowserRouter>
 

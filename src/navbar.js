@@ -16,7 +16,7 @@ const Navbar = (props) => {
                 <Link to="/cats">
                     <span className={activePage === "cats" ? "navactivepage" : "navinactivepage"} onClick={()=>{ChangePage("cats")}}>Cats</span>
                 </Link>
-                <Link to="/art">
+                <Link to="/about">
                     <span className={activePage === "about" ? "navactivepage" : "navinactivepage"} onClick={()=>{ChangePage("about")}}>About</span>
                 </Link>
             </div>
