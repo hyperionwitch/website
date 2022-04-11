@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.007b1f9a.css",
-    "main.js": "/website/static/js/main.0a857327.js",
+    "main.css": "/website/static/css/main.b293aeb4.css",
+    "main.js": "/website/static/js/main.b6d4f3e1.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
     "static/media/tevdrenmusicfade.png": "/website/static/media/tevdrenmusicfade.c6c748d33a9e26201adf.png",
+    "static/media/cats-takarm.jpg": "/website/static/media/cats-takarm.c72655bc759ccae5baa0.jpg",
+    "static/media/cats-meshswitch.jpg": "/website/static/media/cats-meshswitch.1c8b08c0c5efeab8f75d.jpg",
+    "static/media/cats-meshtakcouch.jpg": "/website/static/media/cats-meshtakcouch.ee6ae96d9a1abd44a7e0.jpg",
+    "static/media/cats-meshtakwindow.jpg": "/website/static/media/cats-meshtakwindow.59f47aad59dfffb10184.jpg",
+    "static/media/cats-takbag.jpg": "/website/static/media/cats-takbag.0c4e014dc316609cc8b2.jpg",
+    "static/media/cats-meshdog.jpg": "/website/static/media/cats-meshdog.e74e5a52b063959edad3.jpg",
     "index.html": "/website/index.html",
-    "main.007b1f9a.css.map": "/website/static/css/main.007b1f9a.css.map",
-    "main.0a857327.js.map": "/website/static/js/main.0a857327.js.map",
+    "main.b293aeb4.css.map": "/website/static/css/main.b293aeb4.css.map",
+    "main.b6d4f3e1.js.map": "/website/static/js/main.b6d4f3e1.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.007b1f9a.css",
-    "static/js/main.0a857327.js"
+    "static/css/main.b293aeb4.css",
+    "static/js/main.b6d4f3e1.js"
   ]
 }
