@@ -1,8 +1,10 @@
 const Arttevdren = () => {
 
     return ( 
-        <div>
-            <span>got dang tev dren bs</span>
+        <div className="container-fluid">
+            <div>
+                <span>got dang tev dren bs</span>
+            </div>
         </div>
      );
 }

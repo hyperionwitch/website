@@ -1,6 +1,6 @@
 const Artprintillo = () => {
     return ( 
-        <div>
+        <div className="arthomebody container-fluid">
             <span>prints babeyyyy</span>
         </div>
      );

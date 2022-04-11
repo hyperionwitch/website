@@ -40,7 +40,9 @@ function App() {
       </BrowserRouter>
 
       <div className="pagefooter">
-        <span>footer babeyyyy</span>
+        <footer className="footer mt-auto py-3">
+          <span>footer footer footer</span>
+        </footer>
       </div>
     </div>
   );

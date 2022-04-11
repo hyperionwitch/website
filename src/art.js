@@ -19,7 +19,6 @@ const Art = (props) => {
                     <Route path="artprintillo" element={<Artprintillo />} /> 
                 </Routes>
             </div>
-            
         </div>
      );
 }

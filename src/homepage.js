@@ -1,6 +1,6 @@
 const Homepage = () => {
     return ( 
-        <div className="homepagebody container-fluid">
+        <div className="homepagebody d-flex flex-column">
             <div className="clearfix row">
                 <div className="col-sm-3 float-start leftcolumn">
                     {/* <img className="tevdrenmusicfade img-responsive" src={Tevdrenmusicfade} /> */}
