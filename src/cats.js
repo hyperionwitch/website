@@ -39,7 +39,7 @@ const Cats = () => {
                             <div className="carousel-item">
                                 <img src={CatsMeshSwitch} alt="Mesh laying on a Nintendo Switch" className="d-block w-100" />
                                 <div className="carousel-caption">
-                                    <span>Mesh is also a Gamer Girl<span className="superscript">tm</span></span>
+                                    <span>Mesh is also a Gamer Girl<span className="superscript">TM</span></span>
                                 </div>
                             </div>
                             <div className="carousel-item">
