@@ -14,7 +14,7 @@ const Artnavbar = (props) => {
                     <span className={artActivePage === "arttevdren" ? "artnavactivepage" : "artnavinactivepage"} onClick={()=>{ChangeArtPage("arttevdren")}}>Tev and Dren</span>
                 </Link>
                 <Link to="/art/artprintillo">
-                    <span className={artActivePage === "artprintillo" ? "artnavactivepage" : "artnavinactivepage"} onClick={()=>{ChangeArtPage("artprintillo")}}>Print Illustrations</span>
+                    <span className={artActivePage === "artprintillo" ? "artnavactivepage" : "artnavinactivepage"} onClick={()=>{ChangeArtPage("artprintillo")}}>Print and Illustrations</span>
                 </Link>
             </div>
         </div>
