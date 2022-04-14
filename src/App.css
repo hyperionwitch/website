@@ -48,6 +48,13 @@
   font-size: 50%;
 }
 
+.bodytext {
+  margin: auto;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+
 
 
 /* MAIN PAGE FRAME */
@@ -111,22 +118,19 @@
 /* Create two unequal columns that float next to each other */
 /* Left column */
 .leftcolumn {
-  display: block;
-  height: 65vh;
+  height: auto;
   background-color: black;
   background-image:url(tevdrenmusicfade.png);
-  background-position: 55% 0%;
+  background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment:scroll;
   overflow: hidden;
-  margin: auto;
 }
 
 /* Right column */
 .rightcolumn {
-  display: block;
-  height: 65vh;
+  height: auto;
   overflow-x: auto;
 }
 
@@ -143,7 +147,7 @@
   color: #ffffff;
 }
 
-/* On screens that are 600px or less, the left column turns into a thin bar and the right column becomes full width */
+/* On screens that are 600px or less, the left column turns into a thin bar and the right column becomes full width and the header shrinks */
 @media screen and (max-width: 768px) {
   .leftcolumn {
     height: 10vh;
@@ -152,9 +156,25 @@
   }
   .rightcolumn {
     width: 100%;
-    height: auto;
+    min-height: 50vh;
+  }
+  .pageheader {
+    padding: 30px;
   }
 }
+
+/* On small landscape screens, shrinks the header and navbar */
+/* @media screen and (orientation: landscape) and (max-width: 992px) {
+  .pageheader {
+    padding: 10px;
+    font-size: 10vh;
+  }
+  .topnav {
+    font-size: 75%;
+  }
+} */
+
+
 
 
 
@@ -163,7 +183,6 @@
 .artnav {
   display: flex;
   flex-direction: column;
-  height: 65vh;
   background-color: black;
   overflow: hidden;
   width: 100%;
@@ -212,6 +231,12 @@
 /* Center the art navbar */
 .artnavcenter {
   width: 100%;
+  background-color: black;
+}
+
+.artrightcolumn {
+  display: block;
+  /* height: 65vh; */
 }
 
 /* On screens that are 600px or less, the art navbar shrinks and becomes horizontal */
@@ -222,9 +247,171 @@
   }
   .artrightcolumn {
     display: flex;
-    height: 59vh; /* this will have to be adjusted if the navbar changes height? */
+    /* min-height: 69vh; this will have to be adjusted if the navbar changes height? */
   }
 }
+
+/* On small landscape screens, shrinks the header and navbar */
+@media screen and (orientation: landscape) and (width: 992px) {
+  .artnav {
+    font-size: 75%;
+    flex-direction: row;
+    height: min-content;
+  }
+  .artrightcolumn {
+    display: flex;
+  }
+}
+
+
+
+
+
+/* PRINTS AND ILLUSTRATIONS */
+/* Styles the gallery */
+.artimgrow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Equally sized four-wide art columns */
+.artimgcolumn {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+/* Equally sized two-wide art columns */
+.artimgcolumn2 {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+/* Unevenly sized two-wide art column--vertical */
+.artimgcolumn3 {
+  flex: 40%;
+  max-width: 40%;
+  padding: 0 4px;
+}
+
+/* Unevenly sized two-wide art column--horizontal */
+.artimgcolumn4 {
+  flex: 60%;
+  max-width: 60%;
+  padding: 0 4px;
+}
+
+/* Styles all static images */
+.artimg {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Styles flippable images */
+.artimgflip {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Flips images when they're hovered over */
+.artimgflip:hover {
+  transform: rotate(180deg);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 992px) {
+  .artimgcolumn {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .artimgcolumn2 {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .artimgcolumn3 {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .artimgcolumn4 {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 768px) {
+  .artimgcolumn {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .artimgcolumn2 {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .artimgcolumn3 {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .artimgcolumn4 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Style the art popup setting */
+.modal {
+  display: flex;
+  position: fixed;
+  background-color: rgba(0,0,0,0.9);
+  margin: auto;
+}
+
+/* Style the art popup content */
+.modalcontent {
+  margin: auto;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* Zoom in on art popup */
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+
+
+
+/* TEV DREN GALLERY */
+/* Styles the header image */
+.tevdrenartheader {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+/* Flips header image when it's hovered over */
+.tevdrenartheader:hover {
+  transform: rotate(180deg);
+}
+
+/* Styles the full body images, these will probably be deleted later and replaced with cleaner profile images  */
+.tevdrenartbody {
+  flex: 60%;
+  max-width: 60%;
+  padding: 0 4px;
+}
+
+
 
 
 
