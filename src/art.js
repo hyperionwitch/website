@@ -7,7 +7,7 @@ import Arthome from "./Arthome";
 const Art = (props) => {
 
     return ( 
-        <div className="clearfix row">
+        <div className="clearfix row gutterfix">
             <div className="col-md-3 d-flex justify-content-center">
                 <Artnavbar activePage={props.activePage} ChangeArtPage={props.ChangePage}/>
             </div>

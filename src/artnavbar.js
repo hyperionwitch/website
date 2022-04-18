@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
+import StarfieldFade from "./starfield-fade.png"
 
 const Artnavbar = (props) => {
     const artActivePage = props.activePage;
     const ChangeArtPage = props.ChangeArtPage;
 
-    return ( 
+    return (  
         <div className="artnavcenter">
+            <img src={StarfieldFade} className="starfieldfadeart" /> 
             <div className="artnav">
                 <Link to="/art/home">
                     <span className={artActivePage === "art" ? "artnavactivepage" : "artnavinactivepage"} onClick={()=>{ChangeArtPage("art")}}>Art Home</span>

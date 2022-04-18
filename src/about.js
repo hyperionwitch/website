@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
+import StarfieldFade from "./starfield-fade.png";
 
 const About = () => {
     return ( 
         <div className="homepagebody d-flex flex-column">
-            <div className="clearfix row">
+            <img src={StarfieldFade} className="starfieldfade" />
+            <div className="clearfix row gutterfix">
                 <div className="col-sm-3 float-start leftcolumn">
                 </div>
                 <div className="col-sm-9 p-5 float-end rightcolumn">

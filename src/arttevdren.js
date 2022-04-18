@@ -4,7 +4,7 @@ const Arttevdren = () => {
 
     return ( 
         <div className="arthomebody container-fluid">
-            <div class="header">
+            <div class="bodytext">
                 <img src="https://64.media.tumblr.com/553b70bf97d106f026d87c39df09f138/tumblr_o4o0xr1sW11r183xbo1_1280.png" alt="Symmetrical image of Tev and Dren lying in a field" className="tevdrenartheader" />
                 <h1>Tevrani and Drenim Omalas</h1>
                 <p>A collection of works I've made orbiting my Elder Scrolls III: Morrowind fan characters, Tev and Dren</p>

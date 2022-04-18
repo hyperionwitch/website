@@ -23,12 +23,12 @@ function App() {
   
   return (
     <div className="App">
-      <div className="pageheader">
-        <span>Hyperionwitch's Bullshit</span>
-      </div>
 
       <BrowserRouter>
-        <Navbar activePage={activePage} ChangePage={ChangePage}/>
+        <div className="pageheader">
+          <span className="headertext">Hyperionwitch's Bullshit</span>
+          <Navbar activePage={activePage} ChangePage={ChangePage}/>
+        </div>
         <Routes>  
           <Route path="/homepage" element={<Homepage/>}/>
           <Route path="/website" element={<Homepage/>}/> 

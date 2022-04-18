@@ -16,7 +16,7 @@ const Artprintillo = () => {
 
     return ( 
         <div className="arthomebody container-fluid">
-            <div class="header">
+            <div class="bodytext">
                 <h1>Print and Illustrations</h1>
                 <p>Assorted print designs and miscellanous illustrations, both fanart and original</p>
             </div>

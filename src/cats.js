@@ -1,3 +1,4 @@
+import StarfieldFade from "./starfield-fade.png";
 import CatsMeshTakWindow from "./cats-meshtakwindow.jpg";
 import CatsMeshDog from "./cats-meshdog.jpg";
 import CatsMeshSwitch from "./cats-meshswitch.jpg";
@@ -9,7 +10,8 @@ import CatsMeshTakViolenmce from "./cats-meshtakviolenmce.jpg";
 const Cats = () => {
     return ( 
         <div className="catsbody d-flex flex-column">
-            <div className="clearfix row">
+            <img src={StarfieldFade} className="starfieldfade" />
+            <div className="clearfix row gutterfix">
                 <div className="col-sm-3 float-start leftcolumn">
                 </div>
                 <div className="col-sm-9 p-5 float-end rightcolumn">
