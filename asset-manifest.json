@@ -1,35 +1,28 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.5cd89163.css",
-    "main.js": "/website/static/js/main.2910d691.js",
+    "main.css": "/website/static/css/main.2234b027.css",
+    "main.js": "/website/static/js/main.b362a431.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
-    "static/media/tevdrenmusicfade.png": "/website/static/media/tevdrenmusicfade.c6c748d33a9e26201adf.png",
-    "static/media/print-rwby.png": "/website/static/media/print-rwby.06c22c48320c30f7859f.png",
-    "static/media/print-suopal.png": "/website/static/media/print-suopal.beb9dbe50874152b3b7c.png",
-    "static/media/print-susardonyx.png": "/website/static/media/print-susardonyx.0550134d7960ac31330c.png",
-    "static/media/print-susugilite.png": "/website/static/media/print-susugilite.36f16a70ac426deeca0c.png",
-    "static/media/print-surainbowquartz.png": "/website/static/media/print-surainbowquartz.b836d423c34b4d599d58.png",
-    "static/media/print-suobsidian.png": "/website/static/media/print-suobsidian.a0b768627b86328a58ab.png",
-    "static/media/print-susmokeyquartz.png": "/website/static/media/print-susmokeyquartz.08a533567bf2938b487c.png",
-    "static/media/print-sualexandrite.png": "/website/static/media/print-sualexandrite.aa55a3a7830784370643.png",
-    "static/media/print-susunstone.png": "/website/static/media/print-susunstone.ca3074fff2dfc0cbe7be.png",
-    "static/media/print-sumalachite.png": "/website/static/media/print-sumalachite.3c6600c67cf45fbaae88.png",
-    "static/media/print-sustevonnie.png": "/website/static/media/print-sustevonnie.c1c5fd18ce4a04cb59a0.png",
-    "static/media/print-sugarnet.png": "/website/static/media/print-sugarnet.e88a8d87b4cb09aea050.png",
+    "static/media/tevdrenholidays.png": "/website/static/media/tevdrenholidays.fbc828bbb009a30d665a.png",
+    "static/media/starfield.png": "/website/static/media/starfield.cbce06d2c424ef721c7a.png",
+    "static/media/tevdreneveningstar.png": "/website/static/media/tevdreneveningstar.d72bc0fdc4aa0c0a5f2a.png",
+    "static/media/tevdrensunsdawn.png": "/website/static/media/tevdrensunsdawn.976c1e2c566f0cd17628.png",
+    "static/media/tevdrenmusic.png": "/website/static/media/tevdrenmusic.985c078d0288dbbd25f8.png",
     "static/media/cats-takarm.jpg": "/website/static/media/cats-takarm.c72655bc759ccae5baa0.jpg",
     "static/media/cats-meshswitch.jpg": "/website/static/media/cats-meshswitch.1c8b08c0c5efeab8f75d.jpg",
     "static/media/cats-meshtakcouch.jpg": "/website/static/media/cats-meshtakcouch.ee6ae96d9a1abd44a7e0.jpg",
     "static/media/cats-meshtakviolenmce.jpg": "/website/static/media/cats-meshtakviolenmce.3bb9d0bddc5c98117e8e.jpg",
     "static/media/cats-meshtakwindow.jpg": "/website/static/media/cats-meshtakwindow.59f47aad59dfffb10184.jpg",
     "static/media/cats-takbag.jpg": "/website/static/media/cats-takbag.0c4e014dc316609cc8b2.jpg",
+    "static/media/starfield-fade.png": "/website/static/media/starfield-fade.2ef8da3b8832229052de.png",
     "static/media/cats-meshdog.jpg": "/website/static/media/cats-meshdog.e74e5a52b063959edad3.jpg",
     "index.html": "/website/index.html",
-    "main.5cd89163.css.map": "/website/static/css/main.5cd89163.css.map",
-    "main.2910d691.js.map": "/website/static/js/main.2910d691.js.map",
+    "main.2234b027.css.map": "/website/static/css/main.2234b027.css.map",
+    "main.b362a431.js.map": "/website/static/js/main.b362a431.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cd89163.css",
-    "static/js/main.2910d691.js"
+    "static/css/main.2234b027.css",
+    "static/js/main.b362a431.js"
   ]
 }
