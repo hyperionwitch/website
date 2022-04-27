@@ -1,8 +1,8 @@
 import StarfieldFade from "./starfield-fade.png";
-import TevDrenMusic from "./tevdrenmusic.png";
-import TevDrenHolidays from "./tevdrenholidays.png";
-import TevDrenSunsDawn from "./tevdrensunsdawn.png";
-import TevDrenEveningStar from "./tevdreneveningstar.png";
+import TevDrenMusic from "./tevdren-music-fade.png";
+import TevDrenRainy from "./tevdren-rainy-fade.png";
+import TevDrenSunsDawn from "./tevdren-sunsdawn-fade.png";
+import TevDrenFrostfall from "./tevdren-frostfall-fade.png";
 
 const Homepage = () => {
     // "YOU THERE BOY............WHAT MONTH IS IT"
@@ -14,10 +14,10 @@ const Homepage = () => {
             <div className="clearfix row gutterfix">
                 <div className="col-sm-3 float-start leftcolumn">
                     {/* January = 0, February = 1, etc. */}
-                    {[11, 0, 1].includes(month) && <img src={TevDrenHolidays} className="winterimg" />}
-                    {[2, 3, 4].includes(month) && <img src={TevDrenMusic} className="springimg" />}
+                    {[11, 0, 1].includes(month) && <img src={TevDrenFrostfall} className="winterimg" />}
+                    {[2, 3, 4].includes(month) && <img src={TevDrenRainy} className="springimg" />}
                     {[5, 6, 7].includes(month) && <img src={TevDrenSunsDawn} className="summerimg" />}
-                    {[8, 9, 10].includes(month) && <img src={TevDrenEveningStar} className="fallimg" />}
+                    {[8, 9, 10].includes(month) && <img src={TevDrenMusic} className="fallimg" />}
                 </div>
                 <div className="col-sm-9 p-5 float-end rightcolumn">
                     <div className="bodytext">
