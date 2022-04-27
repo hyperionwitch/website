@@ -198,12 +198,46 @@
 @media screen and (max-width: 768px) {
   .leftcolumn {
     height: 15vh;
-    background-position: 100% 23%;
+    /* background-position: 100% 23%; */
     width: 100%;
   }
   .rightcolumn {
     width: 100%;
     min-height: 50vh;
+  }
+}
+
+/* Style the seasonal images */
+.springimg {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .springimg {
+    object-position: 0 -45vw;
+  }
+}
+.summerimg {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .summerimg {
+    object-position: 0 -50vw;
+  }
+}
+.fallimg {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .fallimg {
+    object-position: 0 -45vw;
+  }
+}
+.winterimg {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .winterimg {
+    object-position: 0 -45vw;
   }
 }
 
@@ -267,6 +301,7 @@
   width: 100%;
   background-color: var(--toolbardark);
   z-index: 3;
+  min-height: 76vh;
 }
 
 .artrightcolumn {
@@ -450,15 +485,38 @@
 }
 
 /* Flips header image when it's hovered over */
-.tevdrenartheader:hover {
+/* .tevdrenartheader:hover {
   transform: rotate(180deg);
-}
+} */
 
 /* Styles the full body images, these will probably be deleted later and replaced with cleaner profile images  */
 .tevdrenartbody {
   flex: 60%;
   max-width: 60%;
   padding: 0 4px;
+  height: 500px;
+  cursor: pointer;
+}
+
+/* Style the design details collapse button */
+.design-details-button {
+  width: 100%;
+  background-color: var(--toolbarhover);
+  color: var(--textlight)
+}
+
+/* Style the comic card thumbnail */
+.comic-thumbnail img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 100% 0%;
+}
+
+/* Style the comic card text */
+.comic-cards a {
+  text-decoration: none !important;
+  color: var(--textdark);
 }
 
 
