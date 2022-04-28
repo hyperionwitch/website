@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.2234b027.css",
-    "main.js": "/website/static/js/main.b362a431.js",
+    "main.css": "/website/static/css/main.75efbf81.css",
+    "main.js": "/website/static/js/main.2b41eac6.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
-    "static/media/tevdrenholidays.png": "/website/static/media/tevdrenholidays.fbc828bbb009a30d665a.png",
     "static/media/starfield.png": "/website/static/media/starfield.cbce06d2c424ef721c7a.png",
-    "static/media/tevdreneveningstar.png": "/website/static/media/tevdreneveningstar.d72bc0fdc4aa0c0a5f2a.png",
-    "static/media/tevdrensunsdawn.png": "/website/static/media/tevdrensunsdawn.976c1e2c566f0cd17628.png",
-    "static/media/tevdrenmusic.png": "/website/static/media/tevdrenmusic.985c078d0288dbbd25f8.png",
+    "static/media/tevdren-sunsdawn-fade.png": "/website/static/media/tevdren-sunsdawn-fade.3901fd4fa18c59782e41.png",
+    "static/media/tevdren-frostfall-fade.png": "/website/static/media/tevdren-frostfall-fade.83bed641787abbdfa5c6.png",
+    "static/media/tevdren-rainy-fade.png": "/website/static/media/tevdren-rainy-fade.c0da635cc75f4cd94fa5.png",
+    "static/media/tevdren-music-fade.png": "/website/static/media/tevdren-music-fade.cb3daff560ee83c19a33.png",
     "static/media/cats-takarm.jpg": "/website/static/media/cats-takarm.c72655bc759ccae5baa0.jpg",
     "static/media/cats-meshswitch.jpg": "/website/static/media/cats-meshswitch.1c8b08c0c5efeab8f75d.jpg",
     "static/media/cats-meshtakcouch.jpg": "/website/static/media/cats-meshtakcouch.ee6ae96d9a1abd44a7e0.jpg",
@@ -17,12 +17,12 @@
     "static/media/starfield-fade.png": "/website/static/media/starfield-fade.2ef8da3b8832229052de.png",
     "static/media/cats-meshdog.jpg": "/website/static/media/cats-meshdog.e74e5a52b063959edad3.jpg",
     "index.html": "/website/index.html",
-    "main.2234b027.css.map": "/website/static/css/main.2234b027.css.map",
-    "main.b362a431.js.map": "/website/static/js/main.b362a431.js.map",
+    "main.75efbf81.css.map": "/website/static/css/main.75efbf81.css.map",
+    "main.2b41eac6.js.map": "/website/static/js/main.2b41eac6.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2234b027.css",
-    "static/js/main.b362a431.js"
+    "static/css/main.75efbf81.css",
+    "static/js/main.2b41eac6.js"
   ]
 }
