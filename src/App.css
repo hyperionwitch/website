@@ -510,13 +510,23 @@
   width: 300px;
   height: 300px;
   object-fit: cover;
-  object-position: 100% 0%;
+  object-position: 50% 0%;
 }
 
 /* Style the comic card text */
 .comic-cards a {
   text-decoration: none !important;
   color: var(--textdark);
+}
+
+/* Style the comic cards and hover effect */
+.comic-thumbnail {
+  background-color: white;
+  transition: 0.2s;
+}
+.comic-thumbnail:hover {
+  background-color: var(--textmedium);
+  transition: 0.2s;
 }
 
 
