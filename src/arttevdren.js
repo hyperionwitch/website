@@ -391,7 +391,7 @@ const Arttevdren = () => {
 
             {/* Seasonal illustrations */}
             <h2>Monthly Illustrations</h2>
-            <div className="artimgrow">
+            {/* <div className="artimgrow">
                 <div className="artimgcolumn">
                     <img onClick={()=>{modalOpenHandler("modal-tevdrenmorningstar")}} id="modal-tevdrenmorningstar" src="https://64.media.tumblr.com/f7165f2cfdeb79f05393cb16e04f0aa2/tumblr_p3cz4yF0pR1r183xbo1_1280.png" alt="Tev, Dren, and Arvo on their balcony at sunset" className="artimg" />
                     <img onClick={()=>{modalOpenHandler("modal-tevdrenlastseed")}} id="modal-tevdrenlastseed" src="https://64.media.tumblr.com/506e601e5c4f98bc3eeb2e15703e2ee8/tumblr_plrdcxuC6W1r183xbo1_1280.png" alt="Tev and Dren standing in ankle-deep swamp water as they collect flowers" className="artimg" />
@@ -405,9 +405,34 @@ const Arttevdren = () => {
                     <img onClick={()=>{modalOpenHandler("modal-tevdrenfrostfall")}} id="modal-tevdrenfrostfall" src="https://64.media.tumblr.com/781656d8396ebd6be93d1d5efc1ccc29/5cfad9e7cca7bcc7-65/s1280x1920/2de6e295cb0fc8030d924500e4b1efaa56a53d34.png" alt="Tev and Dren at a campfire at dusk" className="artimg" />
                 </div>
                 <div className="artimgcolumn">
-                <img onClick={()=>{modalOpenHandler("modal-tevdrensunsheight")}} id="modal-tevdrensunsheight" src="https://64.media.tumblr.com/f9a752502e443f928a835f23dcd72f49/322d8cd3c7e16ae4-dd/s1280x1920/80e4cfb746dd5b3604fe8b26224ceb7e5479122b.png" alt="Tev and Dren standing in a grasslands field at sundown and looking out wistfully" className="artimg" />
+                    <img onClick={()=>{modalOpenHandler("modal-tevdrensunsheight")}} id="modal-tevdrensunsheight" src="https://64.media.tumblr.com/f9a752502e443f928a835f23dcd72f49/322d8cd3c7e16ae4-dd/s1280x1920/80e4cfb746dd5b3604fe8b26224ceb7e5479122b.png" alt="Tev and Dren standing in a grasslands field at sundown and looking out wistfully" className="artimg" />
                 </div>
-            </div>
+            </div> */}
+
+            <ul className="flexbox">
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevdrenmorningstar")}} id="modal-tevdrenmorningstar" src="https://64.media.tumblr.com/f7165f2cfdeb79f05393cb16e04f0aa2/tumblr_p3cz4yF0pR1r183xbo1_1280.png" alt="Tev, Dren, and Arvo on their balcony at sunset" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevdrensunsdawn")}} id="modal-tevdrensunsdawn" src="https://64.media.tumblr.com/04b1d3d640f277cdcee6d9cb6b172431/tumblr_p66gynZpXR1r183xbo1_1280.png" alt="Tev and Dren checking their map in the Ashlands while Arvo explores in the background" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevfirstseed")}} id="modal-tevdrenfirstseed" src="https://64.media.tumblr.com/009d3fa3055bf6e34043613d36155a61/tumblr_phc0x5myss1r183xbo1_1280.png" alt="Tev and Dren chatting at a table over a dinner of bread, keggs, rice, and stew while Arvo sleeps in the back" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevdrensunsheight")}} id="modal-tevdrensunsheight" src="https://64.media.tumblr.com/f9a752502e443f928a835f23dcd72f49/322d8cd3c7e16ae4-dd/s1280x1920/80e4cfb746dd5b3604fe8b26224ceb7e5479122b.png" alt="Tev and Dren standing in a grasslands field at sundown and looking out wistfully" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevdrenlastseed")}} id="modal-tevdrenlastseed" src="https://64.media.tumblr.com/506e601e5c4f98bc3eeb2e15703e2ee8/tumblr_plrdcxuC6W1r183xbo1_1280.png" alt="Tev and Dren standing in ankle-deep swamp water as they collect flowers" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevdrenhearthfire")}} id="modal-tevdrenhearthfire" src="https://64.media.tumblr.com/89d6ceec8443865b81f7310c45327c4b/54889ab44edc4228-ef/s1280x1920/61890661f65b39ae5f0e0a68a7981b7ece270d67.png" alt="Tev chuckling at Dren being over dramatic about Arvo standing on top of him in an Ashlander yurt" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevdrenfrostfall")}} id="modal-tevdrenfrostfall" src="https://64.media.tumblr.com/781656d8396ebd6be93d1d5efc1ccc29/5cfad9e7cca7bcc7-65/s1280x1920/2de6e295cb0fc8030d924500e4b1efaa56a53d34.png" alt="Tev and Dren at a campfire at dusk" />
+                </li>
+                <li></li>
+            </ul>
 
             <br/>
             <br/>
@@ -426,13 +451,63 @@ const Arttevdren = () => {
                         <img onClick={()=>{modalOpenHandler("modal-drenantique")}} id="modal-drenantique" src="https://64.media.tumblr.com/a52a30f44a314997493b0ce4ca39395d/3e521c550e6d07c8-ae/s1280x1920/e7522ad39ab2fd6659fdc9b50c60d8910a1371a5.png" alt="Dren painted in the style of an antique portrait" className="artimg" />
                     </div>
                 </div>
+            
+            {/* <ul className="flexbox">
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-drenpinup")}} id="modal-drenpinup" src="https://64.media.tumblr.com/9183338a866b359eca9ae4523ce8b429/tumblr_ov2mqjme1S1r183xbo2_r1_1280.png" alt="Dren in his bedroom, shirtless and shaving" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevpinup")}} id="modal-tevpinup" src="https://64.media.tumblr.com/185e16f298a202c34cc49d14f72b8165/tumblr_ov2mqjme1S1r183xbo1_r1_1280.png" alt="Tev in her bedroom, reading while wearing a loose robe" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevhorrorscars")}} id="modal-tevhorrorscars" src="https://64.media.tumblr.com/468c68d951b695987e62687ce02ce848/8d63b33875a9dc83-4a/s1280x1920/c0ca8766a53f7fb11799a4696006a975b60f6b11.png" alt="Tev, drawn in light lines on black, with her scars in red" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-drenhorrorscars")}} id="modal-drenhorrorscars" src="https://64.media.tumblr.com/bdebe4879bb78eea709160772bf0cce3/8d63b33875a9dc83-83/s1280x1920/6ae5c8b9428e92e3a71bbc58167c13aa0b6decf4.png" alt="Dren, drawn in light lines on black, with his scars in red" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevantique")}} id="modal-tevantique" src="https://64.media.tumblr.com/9d0d9bb4a409c1eeffa4fe1ed9cd03aa/3e521c550e6d07c8-b6/s1280x1920/333a876fced4f8e99b7dea8dc9d9c9f5966510a8.png" alt="Tev painted in the style of an antique portrait" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-drenantique")}} id="modal-drenantique" src="https://64.media.tumblr.com/a52a30f44a314997493b0ce4ca39395d/3e521c550e6d07c8-ae/s1280x1920/e7522ad39ab2fd6659fdc9b50c60d8910a1371a5.png" alt="Dren painted in the style of an antique portrait" />
+                </li>
+                <li></li>
+            </ul> */}
 
             <br/>
             <br/>
             
             {/* Miscellaneous illustrations */}
             <h2>Miscellaneous Illustrations</h2>
-            <div className="artimgrow">
+            <ul className="flexbox">
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevkintsukuroi")}} id="modal-tevkintsukuroi" src="https://64.media.tumblr.com/3c5c4bd1bd642eb2b6ff04aaa2a0e977/tumblr_o5v6zirzUp1r183xbo1_1280.png" alt="Tev in blue shades with her scars in gold" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevpainting")}} id="modal-tevpainting" src="https://64.media.tumblr.com/184f9649244664d6bc57e11d5f0db22e/tumblr_oce8peXZe51r183xbo1_1280.png" alt="Tev seated in front of a statue of Azura with her spear, surrounded by potions and candles" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevdrenholidays2016")}} id="modal-tevdrenholidays20176" src="https://64.media.tumblr.com/9510c9a901a5f1ab42d2eca546ef2983/tumblr_oixmgflHir1r183xbo1_r1_1280.png" alt="Tev and Dren sitting together and relaxing, Tev with a cup of tea and Dren with his lute" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevdrenrainy")}} id="modal-tevdrenrainy" src="https://64.media.tumblr.com/0a161ff1a4f8ff3cbec819cc4bfeec9a/tumblr_opxsq61iHC1r183xbo1_1280.png" alt="Tev and Dren laughing in an archway as they dry off from being caught in the rain" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevdrenholidays2017")}} id="modal-tevdrenholidays2017" src="https://64.media.tumblr.com/0d1f09fd923b3e7df53edc1cb4afc7ac/tumblr_p0rj7lk44f1r183xbo1_1280.png" alt="Tev and Dren seated on the floor with Arvo, Tev working on alchemy and Dren braiding flowers" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevdrenmusic")}} id="modal-tevdrenmusic" src="https://64.media.tumblr.com/704b51db56b144f8f1507e08e1d810b2/tumblr_pdsupotyNx1r183xbo1_1280.png" alt="Dren teaching Tev how to play lute while she sits in his lap" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevdrenscars")}} id="modal-tevdrenscars" src="https://64.media.tumblr.com/6627510e1c1280e3dd09280739a882d3/f39abef916302100-89/s1280x1920/988c1346cee81c4e50a8954d91135e4cf6d372a1.png" alt="Tev and Dren embracing and examining each others' scars" />
+                </li>
+                <li className="flex-container">
+                    <img className="flex-image" onClick={()=>{modalOpenHandler("modal-tevdrenfield")}} id="modal-tevdrenfield" src="https://64.media.tumblr.com/553b70bf97d106f026d87c39df09f138/tumblr_o4o0xr1sW11r183xbo1_1280.png" alt="Symmetrical image of Tev and Dren lying in a field" />
+                </li>
+                <li></li>
+            </ul>
+
+            {/* <div className="artimgrow">
                 <div className="artimgcolumn">
                     <img onClick={()=>{modalOpenHandler("modal-tevkintsukuroi")}} id="modal-tevkintsukuroi" src="https://64.media.tumblr.com/3c5c4bd1bd642eb2b6ff04aaa2a0e977/tumblr_o5v6zirzUp1r183xbo1_1280.png" alt="Tev in blue shades with her scars in gold" className="artimg" />
                     <img onClick={()=>{modalOpenHandler("modal-tevdrenholidays2017")}} id="modal-tevdrenholidays2017" src="https://64.media.tumblr.com/0d1f09fd923b3e7df53edc1cb4afc7ac/tumblr_p0rj7lk44f1r183xbo1_1280.png" alt="Tev and Dren seated on the floor with Arvo, Tev working on alchemy and Dren braiding flowers" className="artimg" />
@@ -449,7 +524,7 @@ const Arttevdren = () => {
                     <img onClick={()=>{modalOpenHandler("modal-tevdrenrainy")}} id="modal-tevdrenrainy" src="https://64.media.tumblr.com/0a161ff1a4f8ff3cbec819cc4bfeec9a/tumblr_opxsq61iHC1r183xbo1_1280.png" alt="Tev and Dren laughing in an archway as they dry off from being caught in the rain" className="artimg" />
                     <img onClick={()=>{modalOpenHandler("modal-tevdrenfield")}} id="modal-tevdrenfield" src="https://64.media.tumblr.com/553b70bf97d106f026d87c39df09f138/tumblr_o4o0xr1sW11r183xbo1_1280.png" alt="Symmetrical image of Tev and Dren lying in a field" className="artimg" />
                 </div>
-            </div>
+            </div> */}
         </div>
      );
 }
