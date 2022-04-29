@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.75efbf81.css",
+    "main.css": "/website/static/css/main.d66721e0.css",
     "main.js": "/website/static/js/main.2b41eac6.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
     "static/media/starfield.png": "/website/static/media/starfield.cbce06d2c424ef721c7a.png",
@@ -17,12 +17,12 @@
     "static/media/starfield-fade.png": "/website/static/media/starfield-fade.2ef8da3b8832229052de.png",
     "static/media/cats-meshdog.jpg": "/website/static/media/cats-meshdog.e74e5a52b063959edad3.jpg",
     "index.html": "/website/index.html",
-    "main.75efbf81.css.map": "/website/static/css/main.75efbf81.css.map",
+    "main.d66721e0.css.map": "/website/static/css/main.d66721e0.css.map",
     "main.2b41eac6.js.map": "/website/static/js/main.2b41eac6.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75efbf81.css",
+    "static/css/main.d66721e0.css",
     "static/js/main.2b41eac6.js"
   ]
 }
